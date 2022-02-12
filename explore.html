@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> explore </title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <h3>
+   Welcome to Exploration
+   
+   </h3>
+   
+   
+   <style type="text/css">
+      * {
+         box-sizing: border-box;
+      }
+      i {
+         display: inline-block;
+         width: 30px;
+         height: 30px;
+         background-image: url(images/icons.png);
+         margin-bottom: -5px;
+      }
+      i.home-icon {
+         background-position: top 0 left 0;
+      }
+      i.perm_media-icon {
+         background-position: top 0 left -30px;
+      }
+      i.info-icon {
+         background-position: top 0 left -60px;
+      }
+      i.dashboard-icon {
+         background-position: top 0 left -90px;
+      }
+      .dd {
+         position: relative;
+         display: inline-block;
+      }
+      .dd-btn {
+         padding: 15px;
+         text-align: center;
+         background: blue;
+         border: none;
+         width: 300px;
+         color: white;
+         border-radius: 10px;
+      }
+      .dd-content {
+         position: absolute;
+         width: 100%;
+         box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+         height: 0px;
+         transition: height 1s;
+         overflow: hidden;
+      }
+      .dd:hover > .dd-content {
+         height: 240px;
+      }
+      .dd-content > a {
+         display: block;
+         height: 60px;
+         padding: 15px;
+         text-decoration: none;
+         color: black;
+     }
+      div {
+         border-radius: 10px;
+         width: 100%;
+         height: 100%;
+         padding: 1%;
+         color: black;
+         background: white;
+         border: 10px solid silver;
+      }
+      div {
+         column-count: 3;
+         column-width: 100%;
+      }
+   </style>
+</head>
+<body>
+   <div class="dd">
+      <button class="dd-btn"> CLICK ON ME! </button>
+      <div class="dd-content">
+    
+         <a href="home.html"> <i class="material-icons">home</i>Home</a>
+         <a href=""> <i class="material-icons">dashboard</i>Dashboard</a>
+         <a href="gallery.html"> <i class="material-icons">perm_media</i>Gallery</a>
+         <a href="about.html"> <i class="material-icons">info</i>About</a>
+      </div>
+   </div>
+  
+<p>
+
+</p>
+
+<body>
+   <div> Exploration is the act of searching for the purpose of discovery of information or resources, especially in the context of geography or space, rather than research and development that is usually not centred on earth sciences or astronomy.[citation needed] Exploration occurs in all non-sessile animal species, including humans. In human history, its most dramatic rise was during the Age of Discovery when European explorers sailed and charted much of the rest of the world for a variety of reasons. Since then, major explorations after the Age of Discovery have occurred for reasons mostly aimed at information discovery.[citation needed]
+
+
+Professor G. A. Wallin (1811–1852), a Finnish explorer and orientalist, who is remembered for his journeys to the Middle East during the 1840s.[1][2][3] Portrait of Wallin by R. W. Ekman, 1853.
+Concept	
+Notable historical periods of human exploration
+ <p><b> Note! </b> Always contact us @lenspoffa </p>
+</div>
+<table>
+<tr>
+<td>TOTALSALES =<input type="text" name="a" id="first" placeholder="Enter Total Sale Revenue"/> </td>
+</tr>
+<tr>
+<td>COMMISSIONRATE =<input type="text" name="b" id="second" placeholder="Enter Commission Rate"/> </td>
+</tr>
+<tr>
+<td> <button onclick = "commission()" >Submit</button> </td>
+</tr>
+</table>
+<div id="num"> </div>
+<div id="num1"></div>
+</body>
+
+<script type="text/javascript">
+function commission()
+{
+var Tr,Pr;
+Tr = document.getElementById ("first").value;
+Pr = document.getElementById ("second").value;
+com = parseInt(Tr*Pr);
+document.getElementById ('num1').innerHTML ="Commission="+com;
+}
+
+</script>
+</body>
+</body>
+</html>
+
+ 
